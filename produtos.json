@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Fraisier Lumière",
+    "description": "Bolo francês de morango com creme de baunilha.",
+    "price": 32.90,
+    "imageSrc": "/produtos/Fraisier.png",
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "title": "Macarons Rosés",
+    "description": "Caixa com 6 macarons artesanais.",
+    "price": 24.90,
+    "imageSrc": "/produtos/Macarons.png",
+    "destaque": false
+  },
+  {
+    "id": 3,
+    "title": "Tartelette de Framboesa",
+    "description": "Tortinha delicada de framboesa.",
+    "price": 18.90,
+    "imageSrc": "/produtos/Tartelette.png",
+    "destaque": false
+  },
+  {
+    "id": 4,
+    "title": "Éclair de Chocolate Belga",
+    "description": "Massa choux recheada com creme de chocolate.",
+    "price": 21.90,
+    "imageSrc": "/produtos/Éclair.png",
+    "destaque": true
+  },
+  {
+    "id": 5,
+    "title": "Cupcake Amour",
+    "description": "Cupcake de baunilha com cobertura de morango.",
+    "price": 14.90,
+    "imageSrc": "/produtos/Cupcake.png",
+    "destaque": false
+  },
+  {
+    "id": 6,
+    "title": "Cheesecake Lumière",
+    "description": "Cheesecake cremosa com calda de frutas vermelhas.",
+    "price": 26.90,
+    "imageSrc": "/produtos/Cheesecake.png",
+    "destaque": false
+  },
+  {
+    "id": 7,
+    "title": "Red Velvet Royale",
+    "description": "Red velvet sofisticado com cream cheese.",
+    "price": 34.90,
+    "imageSrc": "/produtos/Red.png",
+    "destaque": false
+  },
+  {
+    "id": 8,
+    "title": "Entremet de Frutas Vermelhas",
+    "description": "Sobremesa francesa em camadas.",
+    "price": 29.90,
+    "imageSrc": "/produtos/Entremet.png",
+    "destaque": true
+  },
+  {
+    "id": 9,
+    "title": "Madeleines de Baunilha",
+    "description": "Pequenos bolinhos franceses clássicos.",
+    "price": 16.90,
+    "imageSrc": "/produtos/Madeleines.png",
+    "destaque": false
+  },
+  {
+    "id": 10,
+    "title": "Choux à la Crème",
+    "description": "Bombinhas recheadas com creme pâtissier.",
+    "price": 12.90,
+    "imageSrc": "/produtos/Choux.png",
+    "destaque": false
+  },
+  {
+    "id": 11,
+    "title": "Mini Pavlova Rosée",
+    "description": "Merengue crocante com frutas vermelhas.",
+    "price": 22.90,
+    "imageSrc": "/produtos/Pavlova.png",
+    "destaque": false
+  },
+  {
+    "id": 12,
+    "title": "Petit Gâteau Lumière",
+    "description": "Bolinho quente com recheio cremoso.",
+    "price": 24.90,
+    "imageSrc": "/produtos/Petit.png",
+    "destaque": false
+  },
+  {
+    "id": 13,
+    "title": "Coração de Morango",
+    "description": "Bolo de morangos com merengue em formato de coração.",
+    "price": 54.90,
+    "imageSrc": "/produtos/Coração.png",
+    "destaque": true
+  },
+  {
+    "id": 14,
+    "title": "Biscoitos Fleur de Vanille",
+    "description": "Biscoitos amanteigados decorados.",
+    "price": 18.90,
+    "imageSrc": "/produtos/Biscoitos.png",
+    "destaque": false
+  },
+  {
+    "id": 15,
+    "title": "Latte Rosé",
+    "description": "Café espresso com leite vaporizado e um toque floral de rosas.",
+    "price": 16.90,
+    "imageSrc": "/produtos/Latte.png",
+    "destaque": false
+  },
+  {
+    "id": 16,
+    "title": "Chocolate Parisien",
+    "description": "Chocolate quente denso e cremoso ao estilo parisiense.",
+    "price": 17.90,
+    "imageSrc": "/produtos/Chocolate.png",
+    "destaque": true
+  },
+  {
+    "id": 17,
+    "title": "Cappuccino Lumière",
+    "description": "Cappuccino clássico polvilhado com cacau e canela especial.",
+    "price": 14.90,
+    "imageSrc": "/produtos/Cappuccino.png",
+    "destaque": false
+  },
+  {
+    "id": 18,
+    "title": "Frappé de Morango",
+    "description": "Bebida gelada batida com morangos frescos e chantilly.",
+    "price": 19.90,
+    "imageSrc": "/produtos/Frappé.png",
+    "destaque": true
+  }
+]
