@@ -1,3 +1,5 @@
+"use client"
+
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import {
@@ -8,14 +10,14 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import Image from "next/image"
-
+import { useState, useEffect } from "react"
 // 1. Tipagem das propriedades do produto
 interface CardProdutoProps {
   id: string | number;
   title: string;
   description: string;
   price: number;
-  imageSrc: string;
+  imageSrc?: string; // Propriedade opcional
   destaque?: boolean;
 }
 
@@ -27,6 +29,14 @@ export default function CardProduto({
   id,
   destaque
 }: CardProdutoProps) {
+  // Estado local com inicialização de fallback
+  const [imgSrc, setImgSrc] = useState<string>(imageSrc || "/produtos/placeholder.png");
+
+  // Sincronização com alterações da propriedade externa
+  useEffect(() => {
+    setImgSrc(imageSrc || "/produtos/placeholder.png");
+  }, [imageSrc]);
+
 
   // 2. Formatação de moeda BRL nativa
   const formattedPrice = new Intl.NumberFormat("pt-BR", {
@@ -44,14 +54,15 @@ export default function CardProduto({
       )}
 
       {/* Container de imagem do produto com Image do Next.js para otimização e SEO */}
-      <div className="relative w-full h-[400px] min-h-[400px] overflow-hidden">
+      <div className="relative w-full h-[400px] min-h-[400px] overflow-hidden rounded-t-[30px]">
         <Image
-            src={imageSrc}
-            alt={title}
-            fill
-            sizes="300px"
-            className="object-cover object-center"
-/>
+          src={imgSrc}
+          alt={title}
+          fill
+          className="object-cover object-center"
+          sizes="(max-width: 768px) 100vw, 384px"
+          onError={() => setImgSrc("/produtos/placeholder.png")}
+        />
       </div>
 
       <CardHeader className="pt-5 pb-3 px-6">
