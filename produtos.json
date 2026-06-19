@@ -5,7 +5,8 @@
     "description": "Bolo francês de morango com creme de baunilha.",
     "price": 32.90,
     "imageSrc": "/produtos/Fraisier.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Bolos e Tortas"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "Caixa com 6 macarons artesanais.",
     "price": 24.90,
     "imageSrc": "/produtos/Macarons.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Especialidades Francesas"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "description": "Tortinha delicada de framboesa.",
     "price": 18.90,
     "imageSrc": "/produtos/Tartelette.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Bolos e Tortas"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "description": "Massa choux recheada com creme de chocolate.",
     "price": 21.90,
     "imageSrc": "/produtos/Éclair.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Doces Individuais"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "description": "Cupcake de baunilha com cobertura de morango.",
     "price": 14.90,
     "imageSrc": "/produtos/Cupcake.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Doces Individuais"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "description": "Cheesecake cremosa com calda de frutas vermelhas.",
     "price": 26.90,
     "imageSrc": "/produtos/Cheesecake.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Bolos e Tortas"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "description": "Red velvet sofisticado com cream cheese.",
     "price": 34.90,
     "imageSrc": "/produtos/Red.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Bolos e Tortas"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "description": "Sobremesa francesa em camadas.",
     "price": 29.90,
     "imageSrc": "/produtos/Entremet.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Bolos e Tortas"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "description": "Pequenos bolinhos franceses clássicos.",
     "price": 16.90,
     "imageSrc": "/produtos/Madeleines.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Especialidades Francesas"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "description": "Bombinhas recheadas com creme pâtissier.",
     "price": 12.90,
     "imageSrc": "/produtos/Choux.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Especialidades Francesas"
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "description": "Merengue crocante com frutas vermelhas.",
     "price": 22.90,
     "imageSrc": "/produtos/Pavlova.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Doces Individuais"
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "description": "Bolinho quente com recheio cremoso.",
     "price": 24.90,
     "imageSrc": "/produtos/Petit.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Doces Individuais"
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "description": "Bolo de morangos com merengue em formato de coração.",
     "price": 54.90,
     "imageSrc": "/produtos/Coração.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Bolos e Tortas"
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@
     "description": "Biscoitos amanteigados decorados.",
     "price": 18.90,
     "imageSrc": "/produtos/Biscoitos.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Especialidades Francesas"
   },
   {
     "id": 15,
@@ -117,7 +131,8 @@
     "description": "Café espresso com leite vaporizado e um toque floral de rosas.",
     "price": 16.90,
     "imageSrc": "/produtos/Latte.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Bebidas"
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@
     "description": "Chocolate quente denso e cremoso ao estilo parisiense.",
     "price": 17.90,
     "imageSrc": "/produtos/Chocolate.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Bebidas"
   },
   {
     "id": 17,
@@ -133,7 +149,8 @@
     "description": "Cappuccino clássico polvilhado com cacau e canela especial.",
     "price": 14.90,
     "imageSrc": "/produtos/Cappuccino.png",
-    "destaque": false
+    "destaque": false,
+    "categoria": "Bebidas"
   },
   {
     "id": 18,
@@ -141,6 +158,7 @@
     "description": "Bebida gelada batida com morangos frescos e chantilly.",
     "price": 19.90,
     "imageSrc": "/produtos/Frappé.png",
-    "destaque": true
+    "destaque": true,
+    "categoria": "Bebidas"
   }
 ]
