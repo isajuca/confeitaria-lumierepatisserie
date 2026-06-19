@@ -45,7 +45,7 @@ export default function CardProduto({
   }).format(price);
 
   return (
-    <Card className="relative mx-auto w-full max-w-sm h-full flex flex-col overflow-hidden pt-0 rounded-[30px] border border-[#E8CFCF] bg-[#FDF9F7] shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+    <Card className="relative mx-auto w-full max-w-full md:max-w-sm h-full flex flex-col overflow-hidden pt-0 rounded-[30px] border border-[#E8CFCF] bg-[#FDF9F7] shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
       {/* Selo de destaque absoluto sobreposto no canto superior direito do card */}
       {destaque && (
         <Badge className="absolute top-4 right-4 z-30 bg-[#D7A3A3] text-white border-none shadow-md">

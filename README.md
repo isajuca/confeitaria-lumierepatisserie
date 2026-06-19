@@ -1,36 +1,173 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧁 Lumière Patisserie
 
-## Getting Started
+Website elegante e responsivo para a confeitaria **Lumière Patisserie**, desenvolvido com Next.js, React e Tailwind CSS. O site apresenta um design sofisticado com paleta de cores refinadas e uma experiência de usuário premium.
 
-First, run the development server:
+## ✨ Recursos Principais
 
+- **Home com Carrossel**: Banner visual com produtos em destaque
+- **Catálogo de Produtos**: Galeria responsiva com cards elegantes
+- **Página de Contato**: Formulário de envio de mensagens + mapa interativo com Leaflet
+- **Redes Sociais**: Links para Instagram, Facebook e YouTube
+- **Design Responsivo**: Totalmente otimizado para mobile, tablet e desktop
+- **Paleta de Cores Premium**: Tons dourados (#B89B67), rosa (#D7A3A3) e bege (#FDF9F7)
+- **Performance Otimizada**: Imagens otimizadas com Next.js Image
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Next.js 16.2.6** - Framework React com SSR
+- **React 19.2.4** - UI Library
+- **TypeScript** - Type safety
+- **Tailwind CSS 4** - Styling
+- **Shadcn/ui** - Componentes UI reutilizáveis
+- **React Leaflet** - Mapas interativos
+- **Lucide React** - Ícones
+- **Embla Carousel** - Carrossel responsivo
+
+## 📦 Instalação
+
+### Pré-requisitos
+- Node.js 18+ instalado
+- npm ou yarn
+
+### Setup
+
+1. **Clone o repositório**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <seu-repo>
+cd confeitaria-lumierepatisserie
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Instale as dependências**
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Inicie o servidor de desenvolvimento**
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Abra no navegador**
+```
+http://localhost:3000
+```
 
-## Learn More
+## 📝 Scripts Disponíveis
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Desenvolvimento (com hot reload)
+npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Build para produção
+npm run build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Inicia servidor em produção
+npm start
 
-## Deploy on Vercel
+# Lint do código
+npm run lint
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Estrutura do Projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+confeitaria-lumierepatisserie/
+├── src/
+│   ├── app/
+│   │   ├── globals.css          # Estilos globais
+│   │   ├── layout.tsx           # Layout raiz
+│   │   ├── page.tsx             # Home
+│   │   ├── contato/
+│   │   │   └── page.tsx         # Página de contato
+│   │   └── produtos/
+│   │       └── page.tsx         # Galeria de produtos
+│   └── components/
+│       ├── ui/                  # Componentes shadcn/ui
+│       ├── Header.tsx           # Navegação
+│       ├── Footer.tsx           # Rodapé
+│       ├── Carrossel.tsx        # Banner com carrossel
+│       ├── CardProduto.tsx      # Card individual de produto
+│       └── MapaContato.tsx      # Mapa interativo
+├── public/                      # Arquivos estáticos
+│   ├── logo/                    # Logo da marca
+│   ├── carrossel/               # Imagens do carrossel
+│   └── produtos/                # Imagens dos produtos
+├── produtos.json                # Dados dos produtos
+├── next.config.ts               # Configurações Next.js
+├── tailwind.config.ts           # Configurações Tailwind
+├── tsconfig.json                # Configurações TypeScript
+└── package.json                 # Dependências
+```
+
+## 🎨 Páginas
+
+### Home (`/`)
+- Carrossel com banner promocional
+- Grid de produtos em destaque
+- Design atrativo com chamadas para ação
+
+### Produtos (`/produtos`)
+- Galeria completa de produtos
+- Cards com imagem, descrição e preço
+- Badge de destaque para produtos especiais
+- Responsivo (1 coluna mobile → 3 colunas desktop)
+
+### Contato (`/contato`)
+- Formulário de envio de mensagens
+- Informações de contato (Email, Telefone, Endereço)
+- Links para redes sociais
+- Mapa interativo mostrando localização
+- Elementos decorativos em rosa para coesão visual
+
+## 🎯 Componentes Principais
+
+### Header
+Navegação responsiva com logo e menu (desktop e mobile)
+
+### Footer
+Rodapé com informações e links
+
+### CardProduto
+Component reutilizável para exibir produtos com imagem, preço e badge de destaque
+
+### Carrossel
+Banner rotativo com produtos em destaque
+
+### MapaContato
+Mapa interativo com Leaflet mostrando a localização da confeitaria
+
+## 🎨 Paleta de Cores
+
+- **Ouro Premium**: `#B89B67` - Títulos e destaque
+- **Rosa Elegante**: `#D7A3A3` - Botões e elementos interativos
+- **Rosa Claro**: `#E8CFCF` - Bordas e backgrounds
+- **Bege Quente**: `#FDF9F7` - Background principal
+- **Marrom Suave**: `#8A6F63` - Textos secundários
+
+## 📱 Responsividade
+
+O site é totalmente responsivo com breakpoints:
+- Mobile: < 640px
+- Tablet: 640px - 1024px
+- Desktop: > 1024px
+
+## 🚀 Deploy
+
+### Na Vercel (Recomendado)
+1. Faça push do repositório para GitHub
+2. Conecte seu repositório na [Vercel](https://vercel.com)
+3. Vercel fará deploy automaticamente a cada push
+
+### Outro hosting
+```bash
+npm run build
+npm start
+```
+### Link da Vercel
+https://confeitaria-lumierepatisserie.vercel.app/
+
+## 📧 Dados de Contato
+
+- **Email**: isadora.juca.senai@gmail.com
+
+**Desenvolvido por Isa Jucá**
